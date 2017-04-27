@@ -1,6 +1,6 @@
 # npmtest-pretty-bytes
 
-#### test coverage for  [pretty-bytes (v4.0.2)](https://github.com/sindresorhus/pretty-bytes#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-pretty-bytes.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-pretty-bytes) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-pretty-bytes.svg)](https://travis-ci.org/npmtest/node-npmtest-pretty-bytes)
+#### basic test coverage for  [pretty-bytes (v4.0.2)](https://github.com/sindresorhus/pretty-bytes#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-pretty-bytes.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-pretty-bytes) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-pretty-bytes.svg)](https://travis-ci.org/npmtest/node-npmtest-pretty-bytes)
 
 #### Convert bytes to a human readable string: 1337 → 1.34 kB
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-pretty-bytes/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-pretty-bytes/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-pretty-bytes/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-pretty-bytes/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-pretty-bytes/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-pretty-bytes/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-pretty-bytes/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-pretty-bytes/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-pretty-bytes/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-pretty-bytes/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-pretty-bytes/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-pretty-bytes/build/coverage.html/index.html)
 
@@ -89,7 +89,8 @@
     "scripts": {
         "test": "xo && ava"
     },
-    "version": "4.0.2"
+    "version": "4.0.2",
+    "bin": {}
 }
 ```
 
